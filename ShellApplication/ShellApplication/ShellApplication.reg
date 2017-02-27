@@ -1,0 +1,177 @@
+﻿This file contains information that should be merged into the registry
+from a setup program, or copied into a .reg file and merged into the
+registry for your own personal testing. If you are using a Visual Studio
+Setup Project, then simply copy the file starting below the the "CUT HERE"
+line until the end, and save it to a file with the extension .reg. Then open 
+the Registry editor for your setup program, right click on the Registry editor 
+window, select Import and then browse to the .reg file you have created. All 
+the correct settings have been made and you do not need to make any further 
+modifications. To test these settings on your computer, save the contents of 
+this file to a .reg file like you would for a Setup project, but also search 
+for the value $RootFolder$ and replace it with the directory path containing 
+your program (using double backslashes "\\" as the delimiter). 
+After saving these changes, double-click on the .reg file and merge the changes
+into the registry.
+
+--------------------------------  CUT HERE  --------------------------------
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\CLSID\{2000ce0c-613e-4c27-ba98-43b26838f520}]
+@="ShellApplication DTE Object"
+
+[HKEY_CLASSES_ROOT\CLSID\{2000ce0c-613e-4c27-ba98-43b26838f520}\LocalServer32]
+@="$RootFolder$\\ShellApplication.exe"
+
+[HKEY_CLASSES_ROOT\CLSID\{2000ce0c-613e-4c27-ba98-43b26838f520}\ProgID]
+@="ShellApplication.DTE.1.0"
+
+[HKEY_CLASSES_ROOT\CLSID\{2000ce0c-613e-4c27-ba98-43b26838f520}\VersionIndependentProgID]
+@="ShellApplication.DTE"
+
+[HKEY_CLASSES_ROOT\CLSID\{2000ce0c-613e-4c27-ba98-43b26838f520}\Programmable]
+@=""
+
+[HKEY_CLASSES_ROOT\CLSID\{2000ce0c-613e-4c27-ba98-43b26838f520}\TypeLib]
+@="{80cc9f66-e7d8-4ddd-85b6-d9e6cd0e93e2}"
+
+[HKEY_CLASSES_ROOT\CLSID\{2000ce0c-613e-4c27-ba98-43b26838f520}\DefaultIcon]
+@="$RootFolder$\\ShellApplication.exe,1200"
+
+[HKEY_CLASSES_ROOT\CLSID\{2000ce0c-613e-4c27-ba98-43b26838f520}\Version]
+@="1.0"
+
+[HKEY_CLASSES_ROOT\CLSID\{95f665ab-def8-46fc-acc4-93b1be41dcc0}]
+@="ShellApplication Solution Object"
+
+[HKEY_CLASSES_ROOT\CLSID\{95f665ab-def8-46fc-acc4-93b1be41dcc0}\LocalServer32]
+@="$RootFolder$\\ShellApplication.exe"
+
+[HKEY_CLASSES_ROOT\CLSID\{95f665ab-def8-46fc-acc4-93b1be41dcc0}\ProgID]
+@="ShellApplication.Solution.1.0"
+
+[HKEY_CLASSES_ROOT\CLSID\{95f665ab-def8-46fc-acc4-93b1be41dcc0}\VersionIndependentProgID]
+@="ShellApplication.Solution"
+
+[HKEY_CLASSES_ROOT\CLSID\{95f665ab-def8-46fc-acc4-93b1be41dcc0}\Programmable]
+@=""
+
+[HKEY_CLASSES_ROOT\CLSID\{95f665ab-def8-46fc-acc4-93b1be41dcc0}\TypeLib]
+@="{80cc9f66-e7d8-4ddd-85b6-d9e6cd0e93e2}"
+
+[HKEY_CLASSES_ROOT\CLSID\{95f665ab-def8-46fc-acc4-93b1be41dcc0}\DefaultIcon]
+@="$RootFolder$\\ShellApplication.exe,1200"
+
+[HKEY_CLASSES_ROOT\CLSID\{95f665ab-def8-46fc-acc4-93b1be41dcc0}\Version]
+@="1.0"
+
+[HKEY_CLASSES_ROOT\ShellApplication.DTE.1.0]
+@="ShellApplication DTE Object"
+
+[HKEY_CLASSES_ROOT\ShellApplication.DTE.1.0\CLSID]
+@="{2000ce0c-613e-4c27-ba98-43b26838f520}"
+
+[HKEY_CLASSES_ROOT\ShellApplication.Solution.1.0]
+@="ShellApplication Solution Object"
+
+[HKEY_CLASSES_ROOT\ShellApplication.Solution.1.0\CLSID]
+@="{95f665ab-def8-46fc-acc4-93b1be41dcc0}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\AppEnv\14.0\Apps\ShellApplication_1.0]
+"StubExePath"="$RootFolder$\\ShellApplication.exe"
+"AppName"="ShellApplication"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\ShellApplication.exe]
+@="$RootFolder$\\ShellApplication.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_ENABLE_SCRIPT_PASTE_URLACTION_IF_PROMPT]
+"ShellApplication.exe"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_LOCALMACHINE_LOCKDOWN]
+"ShellApplication.exe"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_RESTRICT_ABOUT_PROTOCOL_IE7]
+"ShellApplication.exe"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_BLOCK_CROSS_PROTOCOL_FILE_NAVIGATION]
+"ShellApplication.exe"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_IFRAME_MAILTO_THRESHOLD]
+"ShellApplication.exe"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_SCRIPTURL_MITIGATION]
+"ShellApplication.exe"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_SHOW_APP_PROTOCOL_WARN_DIALOG]
+"ShellApplication.exe"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_VIEWLINKEDWEBOC_IS_UNSAFE]
+"ShellApplication.exe"=dword:00000001
+
+; Uncomment the entries below if you want to register a source file extension to work with Dynamic Data Exchange (DDE)
+
+;[HKEY_CLASSES_ROOT\Applications\ShellApplication.exe]
+
+;[HKEY_CLASSES_ROOT\Applications\ShellApplication.exe\shell]
+
+;[HKEY_CLASSES_ROOT\Applications\ShellApplication.exe\shell\Open]
+
+;[HKEY_CLASSES_ROOT\Applications\ShellApplication.exe\shell\Open\ddeexec]
+;@="Open(\"%1\")"
+
+;[HKEY_CLASSES_ROOT\Applications\ShellApplication.exe\shell\Open\ddeexec\Application]
+;@="ShellApplication.1.0"
+
+;[HKEY_CLASSES_ROOT\Applications\ShellApplication.exe\shell\Open\ddeexec\Topic]
+;@="system"
+
+;[HKEY_CLASSES_ROOT\Applications\ShellApplication.exe\shell\edit]
+
+;[HKEY_CLASSES_ROOT\Applications\ShellApplication.exe\shell\edit\Command]
+;@="\"$RootFolder$\\ShellApplication.exe\" /dde"
+
+;[HKEY_CLASSES_ROOT\Applications\ShellApplication.exe\shell\edit\ddeexec]
+;@="Open(\"%1\")"
+
+;[HKEY_CLASSES_ROOT\Applications\ShellApplication.exe\shell\edit\ddeexec\Application]
+;@="ShellApplication.1.0"
+
+;[HKEY_CLASSES_ROOT\Applications\ShellApplication.exe\shell\edit\ddeexec\Topic]
+;@="system"
+
+;[HKEY_CLASSES_ROOT\.ShellApplication_ext]
+;@="ShellApplication.ShellApplication_ext.1.0"
+
+;[HKEY_CLASSES_ROOT\ShellApplication.ShellApplication_ext.1.0]
+;"AlwaysShowExt"="1"
+;@="ShellApplication Source file"
+
+;[HKEY_CLASSES_ROOT\ShellApplication.ShellApplication_ext.1.0\DefaultIcon]
+;@="$RootFolder$\\ShellApplication.exe,1200"
+
+;[HKEY_CLASSES_ROOT\ShellApplication.ShellApplication_ext.1.0\shell]
+
+;[HKEY_CLASSES_ROOT\ShellApplication.ShellApplication_ext.1.0\shell\Open]
+
+;[HKEY_CLASSES_ROOT\ShellApplication.ShellApplication_ext.1.0\shell\Open\Command]
+;@="\"$RootFolder$\\ShellApplication.exe\" /dde"
+
+;[HKEY_CLASSES_ROOT\ShellApplication.ShellApplication_ext.1.0\shell\Open\ddeexec]
+;@="Open(\"%1\")"
+
+;[HKEY_CLASSES_ROOT\ShellApplication.ShellApplication_ext.1.0\shell\Open\ddeexec\Application]
+;@="ShellApplication.1.0"
+
+;[HKEY_CLASSES_ROOT\ShellApplication.ShellApplication_ext.1.0\shell\Open\ddeexec\Topic]
+;@="system"
+
+; Uncomment the entries below if you want to register your program for participation in Set Default Programs
+; for the file extension defined above.
+
+;[HKEY_LOCAL_MACHINE\SOFTWARE\RegisteredApplications]
+;"ShellApplication.1.0"="SOFTWARE\\Microsoft\\ShellApplication\\1.0\\Capabilities"
+
+;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ShellApplication\1.0\Capabilities]
+;"ApplicationDescription"="Description of ShellApplication"
+
+;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ShellApplication\1.0\Capabilities\FileAssociations]
+;".ShellApplication_ext"="ShellApplication.ShellApplication_ext.1.0"

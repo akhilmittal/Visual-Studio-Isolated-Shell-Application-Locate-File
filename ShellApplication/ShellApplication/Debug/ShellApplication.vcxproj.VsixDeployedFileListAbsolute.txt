@@ -1,0 +1,10 @@
+D:\OneDrive\Articles\Visual Studio Extensibility\FileLocator\3\IsolatedShellApp\ShellApplication\Debug\\ShellApplication.exe.config
+D:\OneDrive\Articles\Visual Studio Extensibility\FileLocator\3\IsolatedShellApp\ShellApplication\Debug\\ShellApplication.winprf
+D:\OneDrive\Articles\Visual Studio Extensibility\FileLocator\3\IsolatedShellApp\ShellApplication\Debug\\ShellApplication.pkgundef
+D:\OneDrive\Articles\Visual Studio Extensibility\FileLocator\3\IsolatedShellApp\ShellApplication\Debug\\ShellApplication.pkgdef
+D:\OneDrive\Articles\Visual Studio Extensibility\FileLocator\3\IsolatedShellApp\ShellApplication\Debug\\ApplicationIcon.ico
+D:\OneDrive\Articles\Visual Studio Extensibility\FileLocator\3\IsolatedShellApp\ShellApplication\Debug\\Splash.bmp
+D:\OneDrive\Articles\Visual Studio Extensibility\FileLocator\3\IsolatedShellApp\ShellApplication\Debug\\DebuggerProxy.dll
+D:\OneDrive\Articles\Visual Studio Extensibility\FileLocator\3\IsolatedShellApp\ShellApplication\Debug\\DebuggerProxy.dll.manifest
+D:\OneDrive\Articles\Visual Studio Extensibility\FileLocator\3\IsolatedShellApp\ShellApplication\Debug\\Profiles\General.vssettings
+D:\OneDrive\Articles\Visual Studio Extensibility\FileLocator\3\IsolatedShellApp\ShellApplication\Debug\\Extensions\Application\ShellApplication.Application.pkgdef

@@ -1,0 +1,6 @@
+C:\Users\akhil.mittal\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Akhil Mittal\LocateFolder\1.0\\LocateFolder.dll
+C:\Users\akhil.mittal\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Akhil Mittal\LocateFolder\1.0\\LocateFolder.pdb
+C:\Users\akhil.mittal\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Akhil Mittal\LocateFolder\1.0\\LocateFolder.pkgdef
+C:\Users\akhil.mittal\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Akhil Mittal\LocateFolder\1.0\\extension.vsixmanifest
+C:\Users\akhil.mittal\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Akhil Mittal\LocateFolder\1.0\Resources\\Icon.png
+C:\Users\akhil.mittal\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Akhil Mittal\LocateFolder\1.0\Resources\\Preview.png

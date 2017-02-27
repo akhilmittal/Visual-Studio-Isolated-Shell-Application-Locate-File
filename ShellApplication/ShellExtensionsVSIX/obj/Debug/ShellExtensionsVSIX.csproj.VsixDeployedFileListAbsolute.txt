@@ -1,0 +1,9 @@
+D:\OneDrive\Articles\Visual Studio Extensibility\FileLocator\3\IsolatedShellApp\ShellApplication\Debug\Extensions\Application\\LocateFolder.dll
+D:\OneDrive\Articles\Visual Studio Extensibility\FileLocator\3\IsolatedShellApp\ShellApplication\Debug\Extensions\Application\\ShellApplication.AboutBoxPackage.dll
+D:\OneDrive\Articles\Visual Studio Extensibility\FileLocator\3\IsolatedShellApp\ShellApplication\Debug\Extensions\Application\\extension.vsixmanifest
+D:\OneDrive\Articles\Visual Studio Extensibility\FileLocator\3\IsolatedShellApp\ShellApplication\Debug\Extensions\Application\\LocateFolder.pkgdef
+D:\OneDrive\Articles\Visual Studio Extensibility\FileLocator\3\IsolatedShellApp\ShellApplication\Debug\Extensions\Application\\ShellApplication.AboutBoxPackage.pkgdef
+D:\OneDrive\Articles\Visual Studio Extensibility\FileLocator\3\IsolatedShellApp\ShellApplication\Debug\Extensions\Application\\Resources\Icon.png
+D:\OneDrive\Articles\Visual Studio Extensibility\FileLocator\3\IsolatedShellApp\ShellApplication\Debug\Extensions\Application\\Resources\Preview.png
+D:\OneDrive\Articles\Visual Studio Extensibility\FileLocator\3\IsolatedShellApp\ShellApplication\Debug\Extensions\Application\\LocateFolder.pdb
+D:\OneDrive\Articles\Visual Studio Extensibility\FileLocator\3\IsolatedShellApp\ShellApplication\Debug\Extensions\Application\\ShellApplication.AboutBoxPackage.pdb
